@@ -1,0 +1,60 @@
+@media (min-width: 20em) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+}
+@media (min-width: 30.063em) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+@media (min-width: 40.063em) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+@media (min-width: 60.063em) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width: 64.063em) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (min-width: 80.063em) {
+  /* hi-res laptops and desktops */
+}
+
+body,
+button {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media (min-width: 20em) {
+  body,
+  button {
+    font-size: 150px;
+  }
+}
+
+@media (min-width: 80.063em) {
+  body,
+  button {
+    font-size: 50px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+button {
+  padding: 2rem;
+  width: calc(100% - 4rem);
+  margin: 2rem;
+}
