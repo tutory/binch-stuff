@@ -65,13 +65,13 @@ m.mount(document.body, () => {
     view: () => [
       [1, 2].map((index) =>
         m("audio", {
-          src: `/sounds/right${index}.mp3`,
+          src: `sounds/right${index}.mp3`,
           oncreate: ({ dom }) => rightSounds.push(dom),
         })
       ),
       [1, 2].map((index) =>
         m("audio", {
-          src: `/sounds/wrong${index}.mp3`,
+          src: `sounds/wrong${index}.mp3`,
           oncreate: ({ dom }) => wrongSounds.push(dom),
         })
       ),
